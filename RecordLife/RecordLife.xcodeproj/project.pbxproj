@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E166745201072A7000D92A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E166744201072A7000D92A6 /* AppDelegate.swift */; };
+		0E166747201072A7000D92A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E166746201072A7000D92A6 /* ViewController.swift */; };
+		0E16674C201072A7000D92A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E16674B201072A7000D92A6 /* Assets.xcassets */; };
+		0E16675A201072A7000D92A6 /* RecordLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E166759201072A7000D92A6 /* RecordLifeTests.swift */; };
+		0E166765201072A7000D92A6 /* RecordLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E166764201072A7000D92A6 /* RecordLifeUITests.swift */; };
+		0E1667742010740E000D92A6 /* BaseControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1667732010740E000D92A6 /* BaseControllerViewController.swift */; };
+		0E16679F20107446000D92A6 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E16677720107446000D92A6 /* Common.swift */; };
+		0E1667A020107446000D92A6 /* CCDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E16677A20107446000D92A6 /* CCDateView.m */; };
+		0E1667A120107446000D92A6 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E16677B20107446000D92A6 /* DateTools.bundle */; };
+		0E1667A220107446000D92A6 /* DTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E16677E20107446000D92A6 /* DTConstants.m */; };
+		0E1667A320107446000D92A6 /* DTError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E16678020107446000D92A6 /* DTError.m */; };
+		0E1667A420107446000D92A6 /* DTTimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E16678220107446000D92A6 /* DTTimePeriod.m */; };
+		0E1667A520107446000D92A6 /* DTTimePeriodChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E16678420107446000D92A6 /* DTTimePeriodChain.m */; };
+		0E1667A620107446000D92A6 /* DTTimePeriodCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E16678620107446000D92A6 /* DTTimePeriodCollection.m */; };
+		0E1667A720107446000D92A6 /* DTTimePeriodGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E16678820107446000D92A6 /* DTTimePeriodGroup.m */; };
+		0E1667A820107446000D92A6 /* NSDate+DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E16678A20107446000D92A6 /* NSDate+DateTools.m */; };
+		0E1667A920107446000D92A6 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E16678D20107446000D92A6 /* ImageHelper.swift */; };
+		0E1667AA20107446000D92A6 /* ImageVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E16678E20107446000D92A6 /* ImageVIewExtension.swift */; };
+		0E1667AB20107446000D92A6 /* GLIRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E16679A20107446000D92A6 /* GLIRViewController.m */; };
+		0E1667AC20107446000D92A6 /* RippleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E16679C20107446000D92A6 /* RippleModel.m */; };
+		0E1667AD20107446000D92A6 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0E16679D20107446000D92A6 /* Shader.fsh */; };
+		0E1667AE20107446000D92A6 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 0E16679E20107446000D92A6 /* Shader.vsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E166756201072A7000D92A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E166739201072A7000D92A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E166740201072A7000D92A6;
+			remoteInfo = RecordLife;
+		};
+		0E166761201072A7000D92A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E166739201072A7000D92A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E166740201072A7000D92A6;
+			remoteInfo = RecordLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E166741201072A7000D92A6 /* RecordLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E166744201072A7000D92A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E166746201072A7000D92A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E16674B201072A7000D92A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E166750201072A7000D92A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E166755201072A7000D92A6 /* RecordLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E166759201072A7000D92A6 /* RecordLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordLifeTests.swift; sourceTree = "<group>"; };
+		0E16675B201072A7000D92A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E166760201072A7000D92A6 /* RecordLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E166764201072A7000D92A6 /* RecordLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordLifeUITests.swift; sourceTree = "<group>"; };
+		0E166766201072A7000D92A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1667732010740E000D92A6 /* BaseControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseControllerViewController.swift; sourceTree = "<group>"; };
+		0E16677520107423000D92A6 /* RecordLife-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecordLife-Bridging-Header.h"; sourceTree = "<group>"; };
+		0E16677720107446000D92A6 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		0E16677920107446000D92A6 /* CCDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDateView.h; sourceTree = "<group>"; };
+		0E16677A20107446000D92A6 /* CCDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDateView.m; sourceTree = "<group>"; };
+		0E16677B20107446000D92A6 /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DateTools.bundle; sourceTree = "<group>"; };
+		0E16677C20107446000D92A6 /* DateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTools.h; sourceTree = "<group>"; };
+		0E16677D20107446000D92A6 /* DTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTConstants.h; sourceTree = "<group>"; };
+		0E16677E20107446000D92A6 /* DTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTConstants.m; sourceTree = "<group>"; };
+		0E16677F20107446000D92A6 /* DTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTError.h; sourceTree = "<group>"; };
+		0E16678020107446000D92A6 /* DTError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTError.m; sourceTree = "<group>"; };
+		0E16678120107446000D92A6 /* DTTimePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTimePeriod.h; sourceTree = "<group>"; };
+		0E16678220107446000D92A6 /* DTTimePeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTimePeriod.m; sourceTree = "<group>"; };
+		0E16678320107446000D92A6 /* DTTimePeriodChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTimePeriodChain.h; sourceTree = "<group>"; };
+		0E16678420107446000D92A6 /* DTTimePeriodChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTimePeriodChain.m; sourceTree = "<group>"; };
+		0E16678520107446000D92A6 /* DTTimePeriodCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTimePeriodCollection.h; sourceTree = "<group>"; };
+		0E16678620107446000D92A6 /* DTTimePeriodCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTimePeriodCollection.m; sourceTree = "<group>"; };
+		0E16678720107446000D92A6 /* DTTimePeriodGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTimePeriodGroup.h; sourceTree = "<group>"; };
+		0E16678820107446000D92A6 /* DTTimePeriodGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTimePeriodGroup.m; sourceTree = "<group>"; };
+		0E16678920107446000D92A6 /* NSDate+DateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateTools.h"; sourceTree = "<group>"; };
+		0E16678A20107446000D92A6 /* NSDate+DateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateTools.m"; sourceTree = "<group>"; };
+		0E16678C20107446000D92A6 /* ImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHelper.h; sourceTree = "<group>"; };
+		0E16678D20107446000D92A6 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		0E16678E20107446000D92A6 /* ImageVIewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageVIewExtension.swift; sourceTree = "<group>"; };
+		0E16679020107446000D92A6 /* APIStringMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIStringMacros.h; sourceTree = "<group>"; };
+		0E16679120107446000D92A6 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		0E16679220107446000D92A6 /* DimensMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DimensMacros.h; sourceTree = "<group>"; };
+		0E16679320107446000D92A6 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		0E16679420107446000D92A6 /* NotificationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationMacros.h; sourceTree = "<group>"; };
+		0E16679520107446000D92A6 /* PathMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathMacros.h; sourceTree = "<group>"; };
+		0E16679620107446000D92A6 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		0E16679720107446000D92A6 /* UtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		0E16679920107446000D92A6 /* GLIRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLIRViewController.h; sourceTree = "<group>"; };
+		0E16679A20107446000D92A6 /* GLIRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLIRViewController.m; sourceTree = "<group>"; };
+		0E16679B20107446000D92A6 /* RippleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleModel.h; sourceTree = "<group>"; };
+		0E16679C20107446000D92A6 /* RippleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleModel.m; sourceTree = "<group>"; };
+		0E16679D20107446000D92A6 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		0E16679E20107446000D92A6 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E16673E201072A7000D92A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E166752201072A7000D92A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E16675D201072A7000D92A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E166738201072A6000D92A6 = {
+			isa = PBXGroup;
+			children = (
+				0E166743201072A7000D92A6 /* RecordLife */,
+				0E166758201072A7000D92A6 /* RecordLifeTests */,
+				0E166763201072A7000D92A6 /* RecordLifeUITests */,
+				0E166742201072A7000D92A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E166742201072A7000D92A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E166741201072A7000D92A6 /* RecordLife.app */,
+				0E166755201072A7000D92A6 /* RecordLifeTests.xctest */,
+				0E166760201072A7000D92A6 /* RecordLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E166743201072A7000D92A6 /* RecordLife */ = {
+			isa = PBXGroup;
+			children = (
+				0E16677620107446000D92A6 /* Tools */,
+				0E1667722010740E000D92A6 /* Base */,
+				0E166744201072A7000D92A6 /* AppDelegate.swift */,
+				0E166746201072A7000D92A6 /* ViewController.swift */,
+				0E16674B201072A7000D92A6 /* Assets.xcassets */,
+				0E16677520107423000D92A6 /* RecordLife-Bridging-Header.h */,
+				0E166750201072A7000D92A6 /* Info.plist */,
+			);
+			path = RecordLife;
+			sourceTree = "<group>";
+		};
+		0E166758201072A7000D92A6 /* RecordLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E166759201072A7000D92A6 /* RecordLifeTests.swift */,
+				0E16675B201072A7000D92A6 /* Info.plist */,
+			);
+			path = RecordLifeTests;
+			sourceTree = "<group>";
+		};
+		0E166763201072A7000D92A6 /* RecordLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E166764201072A7000D92A6 /* RecordLifeUITests.swift */,
+				0E166766201072A7000D92A6 /* Info.plist */,
+			);
+			path = RecordLifeUITests;
+			sourceTree = "<group>";
+		};
+		0E1667722010740E000D92A6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0E1667732010740E000D92A6 /* BaseControllerViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0E16677620107446000D92A6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0E16677720107446000D92A6 /* Common.swift */,
+				0E16677820107446000D92A6 /* DateTools */,
+				0E16678B20107446000D92A6 /* Img */,
+				0E16678F20107446000D92A6 /* PreHeader */,
+				0E16679820107446000D92A6 /* waves */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0E16677820107446000D92A6 /* DateTools */ = {
+			isa = PBXGroup;
+			children = (
+				0E16677920107446000D92A6 /* CCDateView.h */,
+				0E16677A20107446000D92A6 /* CCDateView.m */,
+				0E16677B20107446000D92A6 /* DateTools.bundle */,
+				0E16677C20107446000D92A6 /* DateTools.h */,
+				0E16677D20107446000D92A6 /* DTConstants.h */,
+				0E16677E20107446000D92A6 /* DTConstants.m */,
+				0E16677F20107446000D92A6 /* DTError.h */,
+				0E16678020107446000D92A6 /* DTError.m */,
+				0E16678120107446000D92A6 /* DTTimePeriod.h */,
+				0E16678220107446000D92A6 /* DTTimePeriod.m */,
+				0E16678320107446000D92A6 /* DTTimePeriodChain.h */,
+				0E16678420107446000D92A6 /* DTTimePeriodChain.m */,
+				0E16678520107446000D92A6 /* DTTimePeriodCollection.h */,
+				0E16678620107446000D92A6 /* DTTimePeriodCollection.m */,
+				0E16678720107446000D92A6 /* DTTimePeriodGroup.h */,
+				0E16678820107446000D92A6 /* DTTimePeriodGroup.m */,
+				0E16678920107446000D92A6 /* NSDate+DateTools.h */,
+				0E16678A20107446000D92A6 /* NSDate+DateTools.m */,
+			);
+			path = DateTools;
+			sourceTree = "<group>";
+		};
+		0E16678B20107446000D92A6 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				0E16678C20107446000D92A6 /* ImageHelper.h */,
+				0E16678D20107446000D92A6 /* ImageHelper.swift */,
+				0E16678E20107446000D92A6 /* ImageVIewExtension.swift */,
+			);
+			path = Img;
+			sourceTree = "<group>";
+		};
+		0E16678F20107446000D92A6 /* PreHeader */ = {
+			isa = PBXGroup;
+			children = (
+				0E16679020107446000D92A6 /* APIStringMacros.h */,
+				0E16679120107446000D92A6 /* Constant.h */,
+				0E16679220107446000D92A6 /* DimensMacros.h */,
+				0E16679320107446000D92A6 /* Macros.h */,
+				0E16679420107446000D92A6 /* NotificationMacros.h */,
+				0E16679520107446000D92A6 /* PathMacros.h */,
+				0E16679620107446000D92A6 /* Singleton.h */,
+				0E16679720107446000D92A6 /* UtilsMacros.h */,
+			);
+			path = PreHeader;
+			sourceTree = "<group>";
+		};
+		0E16679820107446000D92A6 /* waves */ = {
+			isa = PBXGroup;
+			children = (
+				0E16679920107446000D92A6 /* GLIRViewController.h */,
+				0E16679A20107446000D92A6 /* GLIRViewController.m */,
+				0E16679B20107446000D92A6 /* RippleModel.h */,
+				0E16679C20107446000D92A6 /* RippleModel.m */,
+				0E16679D20107446000D92A6 /* Shader.fsh */,
+				0E16679E20107446000D92A6 /* Shader.vsh */,
+			);
+			path = waves;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E166740201072A7000D92A6 /* RecordLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E166769201072A7000D92A6 /* Build configuration list for PBXNativeTarget "RecordLife" */;
+			buildPhases = (
+				0E16673D201072A7000D92A6 /* Sources */,
+				0E16673E201072A7000D92A6 /* Frameworks */,
+				0E16673F201072A7000D92A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordLife;
+			productName = RecordLife;
+			productReference = 0E166741201072A7000D92A6 /* RecordLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E166754201072A7000D92A6 /* RecordLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E16676C201072A7000D92A6 /* Build configuration list for PBXNativeTarget "RecordLifeTests" */;
+			buildPhases = (
+				0E166751201072A7000D92A6 /* Sources */,
+				0E166752201072A7000D92A6 /* Frameworks */,
+				0E166753201072A7000D92A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E166757201072A7000D92A6 /* PBXTargetDependency */,
+			);
+			name = RecordLifeTests;
+			productName = RecordLifeTests;
+			productReference = 0E166755201072A7000D92A6 /* RecordLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E16675F201072A7000D92A6 /* RecordLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E16676F201072A7000D92A6 /* Build configuration list for PBXNativeTarget "RecordLifeUITests" */;
+			buildPhases = (
+				0E16675C201072A7000D92A6 /* Sources */,
+				0E16675D201072A7000D92A6 /* Frameworks */,
+				0E16675E201072A7000D92A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E166762201072A7000D92A6 /* PBXTargetDependency */,
+			);
+			name = RecordLifeUITests;
+			productName = RecordLifeUITests;
+			productReference = 0E166760201072A7000D92A6 /* RecordLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E166739201072A7000D92A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = kobehjk;
+				TargetAttributes = {
+					0E166740201072A7000D92A6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0E166754201072A7000D92A6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E166740201072A7000D92A6;
+					};
+					0E16675F201072A7000D92A6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E166740201072A7000D92A6;
+					};
+				};
+			};
+			buildConfigurationList = 0E16673C201072A7000D92A6 /* Build configuration list for PBXProject "RecordLife" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E166738201072A6000D92A6;
+			productRefGroup = 0E166742201072A7000D92A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E166740201072A7000D92A6 /* RecordLife */,
+				0E166754201072A7000D92A6 /* RecordLifeTests */,
+				0E16675F201072A7000D92A6 /* RecordLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E16673F201072A7000D92A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E16674C201072A7000D92A6 /* Assets.xcassets in Resources */,
+				0E1667AE20107446000D92A6 /* Shader.vsh in Resources */,
+				0E1667A120107446000D92A6 /* DateTools.bundle in Resources */,
+				0E1667AD20107446000D92A6 /* Shader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E166753201072A7000D92A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E16675E201072A7000D92A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E16673D201072A7000D92A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E16679F20107446000D92A6 /* Common.swift in Sources */,
+				0E1667742010740E000D92A6 /* BaseControllerViewController.swift in Sources */,
+				0E166747201072A7000D92A6 /* ViewController.swift in Sources */,
+				0E1667A420107446000D92A6 /* DTTimePeriod.m in Sources */,
+				0E1667A520107446000D92A6 /* DTTimePeriodChain.m in Sources */,
+				0E1667AC20107446000D92A6 /* RippleModel.m in Sources */,
+				0E1667A320107446000D92A6 /* DTError.m in Sources */,
+				0E1667AA20107446000D92A6 /* ImageVIewExtension.swift in Sources */,
+				0E1667AB20107446000D92A6 /* GLIRViewController.m in Sources */,
+				0E1667A020107446000D92A6 /* CCDateView.m in Sources */,
+				0E1667A720107446000D92A6 /* DTTimePeriodGroup.m in Sources */,
+				0E1667A920107446000D92A6 /* ImageHelper.swift in Sources */,
+				0E1667A620107446000D92A6 /* DTTimePeriodCollection.m in Sources */,
+				0E166745201072A7000D92A6 /* AppDelegate.swift in Sources */,
+				0E1667A820107446000D92A6 /* NSDate+DateTools.m in Sources */,
+				0E1667A220107446000D92A6 /* DTConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E166751201072A7000D92A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E16675A201072A7000D92A6 /* RecordLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E16675C201072A7000D92A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E166765201072A7000D92A6 /* RecordLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E166757201072A7000D92A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E166740201072A7000D92A6 /* RecordLife */;
+			targetProxy = 0E166756201072A7000D92A6 /* PBXContainerItemProxy */;
+		};
+		0E166762201072A7000D92A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E166740201072A7000D92A6 /* RecordLife */;
+			targetProxy = 0E166761201072A7000D92A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E166767201072A7000D92A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E166768201072A7000D92A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E16676A201072A7000D92A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WY83NL9RY;
+				INFOPLIST_FILE = RecordLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobehjk.RecordLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/hejinkun/Documents/MyGitHub/RecordLife/RecordLife/RecordLife/RecordLife-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0E16676B201072A7000D92A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WY83NL9RY;
+				INFOPLIST_FILE = RecordLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobehjk.RecordLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/hejinkun/Documents/MyGitHub/RecordLife/RecordLife/RecordLife/RecordLife-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0E16676D201072A7000D92A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WY83NL9RY;
+				INFOPLIST_FILE = RecordLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobehjk.RecordLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordLife.app/RecordLife";
+			};
+			name = Debug;
+		};
+		0E16676E201072A7000D92A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WY83NL9RY;
+				INFOPLIST_FILE = RecordLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobehjk.RecordLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordLife.app/RecordLife";
+			};
+			name = Release;
+		};
+		0E166770201072A7000D92A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WY83NL9RY;
+				INFOPLIST_FILE = RecordLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobehjk.RecordLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecordLife;
+			};
+			name = Debug;
+		};
+		0E166771201072A7000D92A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WY83NL9RY;
+				INFOPLIST_FILE = RecordLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobehjk.RecordLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecordLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E16673C201072A7000D92A6 /* Build configuration list for PBXProject "RecordLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E166767201072A7000D92A6 /* Debug */,
+				0E166768201072A7000D92A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E166769201072A7000D92A6 /* Build configuration list for PBXNativeTarget "RecordLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E16676A201072A7000D92A6 /* Debug */,
+				0E16676B201072A7000D92A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E16676C201072A7000D92A6 /* Build configuration list for PBXNativeTarget "RecordLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E16676D201072A7000D92A6 /* Debug */,
+				0E16676E201072A7000D92A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E16676F201072A7000D92A6 /* Build configuration list for PBXNativeTarget "RecordLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E166770201072A7000D92A6 /* Debug */,
+				0E166771201072A7000D92A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E166739201072A7000D92A6 /* Project object */;
+}
